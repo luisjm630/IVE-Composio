@@ -11,7 +11,7 @@ const session = await composio.create(userId);
 
 // Query Claude with MCP tools
 const stream = await query({
-  prompt: "Star the composiohq/composio repo on GitHub",
+  prompt: "Check QuickBooks and find my most sold item in 2026. Look at sales data for the year 2026 and identify which item or product had the highest total quantity sold.",
   options: {
     permissionMode: "bypassPermissions",
     mcpServers: {
